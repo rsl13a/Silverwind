@@ -31,3 +31,59 @@
     transform: rotate(360deg);
   }
 }
+
+.title{
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  width: 90vw;
+  margin-right: 10px;
+}
+
+.flex-container .item {
+  width: 360px;
+  margin: 50px;
+  text-align: left;
+  line-height: 20px;
+  font-size: 10px;
+  background-color: white;
+  border-style: solid;
+  
+}
+
+.flex-container-box{
+  color: black;
+}
+
+.flex-container-box img{
+  border-radius: 50%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  width: 70px;
+  
+}
+
+.flex-container-box a{
+  text-transform: uppercase;
+}
+
+.Title{
+  text-align: center;
+  background-color: #FFFFE0;
+  height: 50px;
+  font-size: 25px;
+}
+
+.filter-style{
+  margin-left: 90px;
+}
+
+.divider{
+  margin-top: 40px;
+  margin-bottom: 1px;
+}
