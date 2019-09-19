@@ -49,7 +49,9 @@ class App extends Component {
     // API
     var { isLoaded, filteredItems } = this.state;
     if (!isLoaded) {
-      return <div>Loading...</div>
+      return <div>
+
+      </div>
     } else {
 
       return (
