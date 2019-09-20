@@ -19,7 +19,7 @@ class App extends Component {
 
   // Fetch API
   componentDidMount() {
-    fetch('http://www.mocky.io/v2/5d73bf3d3300003733081869')
+    fetch('https://www.mocky.io/v2/5d73bf3d3300003733081869')
       .then(res => res.json())
       .then(json => {
         this.setState({
